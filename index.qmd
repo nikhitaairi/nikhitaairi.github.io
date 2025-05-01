@@ -1,11 +1,19 @@
 ---
-title: "nikhitaairi.github.io"
+title: "Hello!"
+about:
+  template: broadside
+draft: TRUE
+image: assets/photo.png
 ---
 
-This is a Quarto website.
+I am a researcher at the [Tax Policy Center](https://taxpolicycenter.org) at the Urban Institute. 
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+I work on microsimulation modeling, quantitative analysis, and data visualization, focusing on refundable tax credits for low-income families and children, and the interplay between federal, state, and local tax and budget policy.
 
-```{r}
-1 + 1
-```
+I'm excited about blending subject matter knowledge and code-first data science methods to build better tools and workflows for tax researchers. 
+
+
+
+
+
+
