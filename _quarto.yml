@@ -7,13 +7,23 @@ website:
     tools:
     - icon: github
       href: https://github.com/nikhitaairi/nikhitaairi.github.io
+    - icon: linkedin
+      href: https://www.linkedin.com/in/nikhita-airi 
     left:
       - href: index.qmd
         text: Home
       - about.qmd
-      - href: cv.qmd
-        text: My work
+      - text: "Research"
+        menu:
+          - href: CopyOfcv.qmd
+            text: "Short form pieces"
+          - href: cv.qmd
+            text: "Journal articles"
+      - href: about.qmd
+        text: "Data viz portfolio"
+          
   back-to-top-navigation: false
+
 
 format:
   html:
