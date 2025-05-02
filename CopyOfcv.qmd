@@ -1,13 +1,40 @@
 ---
-title: "My work"
+title: "In the media"
 ---
 
-## Selected blogs
+::: {.panel-tabset}
+
+## Short-form articles
 
 -   [Tipped Workers, Their Income Taxes, and States](https://taxpolicycenter.org/taxvox/tipped-workers-their-income-taxes-and-states) with Lillian Hunter
+<!-- ```{=html} -->
+<!-- <center><img src="https://taxpolicycenter.org/sites/default/files/tips_f1_0.png" width=50% scrolling="no"></img></center> -->
+<!-- ``` -->
 
 -   [State and Local Government Jobs Still Haven’t Recovered from the Pandemic](https://taxpolicycenter.org/taxvox/state-and-local-government-jobs-still-havent-recovered-pandemic) with Sadie Bograd
+<!-- ```{=html} -->
+<!-- <center><img src="https://taxpolicycenter.org/sites/default/files/sl_and_nonfarm_employment_since_march2020.png" width=50% scrolling="no"></img></center> -->
+<!-- ``` -->
 
 -   [Which States Tax Student Loan Forgiveness, and Why Is It So Complicated?](https://taxpolicycenter.org/taxvox/which-states-tax-student-loan-forgiveness-and-why-it-so-complicated) with Lillian Hunter
+<!-- ```{=html} -->
+<!-- <center><img src="https://taxpolicycenter.org/sites/default/files/cancellation_tile_map.png" width=50% scrolling="no"></img></center> -->
+<!-- ``` -->
 
 -   [Why Do States Tax Illegal Drugs?](https://taxpolicycenter.org/taxvox/why-do-states-tax-illegal-drugs) with Aravind Boddupalli
+<!-- ```{=html} -->
+<!-- <center><img src="https://thumbnails.texastribune.org/sU0dwTw_-v-ofzRnaCNGEM5a69Q=/850x570/smart/filters:format(webp):quality(75)/https://static.texastribune.org/media/images/2016/01/28/marijuana_stamps.jpg" width=50% scrolling="no"></img></center> -->
+<!-- ``` -->
+
+## Interviews/media mentions
+* [*Stateside* (Michigan Public Radio)](https://www.michiganpublic.org/show/stateside/2024-09-24/stateside-tuesday-sept-24-2024) on tipped minimum wages (9/24/2024)
+* [*Chalkbeat*](https://www.chalkbeat.org/2024/09/10/why-expanding-the-child-tax-credit-would-help-kids-at-school/) on the child tax credit (9/10/2024)
+* [*CNBC*](https://www.cnbc.com/2024/02/01/child-tax-credit-expansion-could-benefit-millions-of-families.html) on the child tax credit (2/1/2024)
+* [*Route Fifty*](https://www.route-fifty.com/management/2023/08/public-sector-workers-needed-lots-workers-needed/389836/) on public sector capacity in state and local government (8/29/2023)
+* [*CBS8*](https://www.cbs8.com/article/money/california-lawmakers-student-debt-relief-taxed/103-8c54394a-3ed6-410e-a61a-251023db1745) on student loan forgiveness (10/18/2022)
+* [*Vox*](https://www.vox.com/future-perfect/22280404/mitt-romney-child-allowance-tax-credit-biden) on monthly payments of tax credits (2/23/2021)
+
+## Presentations
+* [IRS/TPC Joint Research Conference on Tax Administration](https://youtu.be/A7HaVQomH_0?t=3480) (June 2024) 
+
+:::

@@ -1,5 +1,6 @@
 project:
   type: website
+  output-dir: ".."
 
 website:
   title: "Nikhita Airi"
@@ -16,10 +17,10 @@ website:
       - text: "Research"
         menu:
           - href: CopyOfcv.qmd
-            text: "Short form pieces"
+            text: "Blogs"
           - href: cv.qmd
             text: "Journal articles"
-      - href: about.qmd
+      - href: portfolio.qmd
         text: "Data viz portfolio"
           
   back-to-top-navigation: false
