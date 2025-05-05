@@ -1,13 +1,12 @@
 project:
   type: website
-  output-dir: ".."
 
 website:
   title: "Nikhita Airi"
   navbar:
     tools:
     - icon: github
-      href: https://github.com/nikhitaairi/nikhitaairi.github.io
+      href: https://github.com/nikhitaairi
     - icon: linkedin
       href: https://www.linkedin.com/in/nikhita-airi 
     left:
@@ -16,12 +15,17 @@ website:
       - about.qmd
       - text: "Research"
         menu:
-          - href: CopyOfcv.qmd
-            text: "Blogs"
+          - href: reports.qmd
+            text: "Reports"
           - href: cv.qmd
             text: "Journal articles"
+          - href: media.qmd
+            text: "Blogs/media"
       - href: portfolio.qmd
         text: "Data viz portfolio"
+        
+  page-footer: 
+    right: "Made with [Quarto](https://quarto.org)"
           
   back-to-top-navigation: false
 
