@@ -1,5 +1,6 @@
 project:
   type: website
+  output-dir: /Users/nikhitaairi/Desktop/nikhitaairi.github.io/
 
 website:
   title: "Nikhita Airi"
