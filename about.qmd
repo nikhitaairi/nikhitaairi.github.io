@@ -2,8 +2,6 @@
 title: "About"
 ---
 
-:::: {.columns}
-::: {.column width="60%"}
 I'm an experienced policy data analyst and research programmer interested in direct cash assistance and fiscal federalism. I’m excited about using code-first data science methods to improve and make research workflows reproducible. 
 
 In my current role at the Urban Institute, I have a wide policy research and project management portfolio that includes analyzing federal tax policy using the Tax Policy Center Microsimulation Model and applying data privacy methods to administrative tax data. 
@@ -18,15 +16,3 @@ Prior to joining Urban, I studied economics at Reed College where I also worked 
 
 #### Education
 **Reed College** BA in Economics, 2019
-
-:::
-::: {.column width="10%"}
-:::
-
-::: {.column width="30%"}
-```{=html}
-<img src="./assets/photo_2.jpg" alt="Polaroid style photo of me sitting next to a boulder" style="width: 500px;"/>
-```
-
-:::
-::::
