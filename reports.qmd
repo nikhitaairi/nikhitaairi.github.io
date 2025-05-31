@@ -1,8 +1,8 @@
 ---
-title: "Reports"
+title: "Research areas"
 ---
 
-I've worked on...
+Below is a selection of longer-form research reports I've contributed to across several topic areas.
 
 ::: panel-tabset
 

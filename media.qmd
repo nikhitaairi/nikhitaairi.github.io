@@ -3,17 +3,11 @@ title: "In the media"
 ---
 
 ::: panel-tabset
-## Short-form articles
-
--   [Tipped Workers, Their Income Taxes, and States](https://taxpolicycenter.org/taxvox/tipped-workers-their-income-taxes-and-states) with Lillian Hunter <!-- ```{=html} --> <!-- <center><img src="https://taxpolicycenter.org/sites/default/files/tips_f1_0.png" width=50% scrolling="no"></img></center> --> <!-- ``` -->
-
--   [State and Local Government Jobs Still Haven’t Recovered from the Pandemic](https://taxpolicycenter.org/taxvox/state-and-local-government-jobs-still-havent-recovered-pandemic) with Sadie Bograd <!-- ```{=html} --> <!-- <center><img src="https://taxpolicycenter.org/sites/default/files/sl_and_nonfarm_employment_since_march2020.png" width=50% scrolling="no"></img></center> --> <!-- ``` -->
-
--   [Which States Tax Student Loan Forgiveness, and Why Is It So Complicated?](https://taxpolicycenter.org/taxvox/which-states-tax-student-loan-forgiveness-and-why-it-so-complicated) with Lillian Hunter <!-- ```{=html} --> <!-- <center><img src="https://taxpolicycenter.org/sites/default/files/cancellation_tile_map.png" width=50% scrolling="no"></img></center> --> <!-- ``` -->
-
--   [Why Do States Tax Illegal Drugs?](https://taxpolicycenter.org/taxvox/why-do-states-tax-illegal-drugs) with Aravind Boddupalli <!-- ```{=html} --> <!-- <center><img src="https://thumbnails.texastribune.org/sU0dwTw_-v-ofzRnaCNGEM5a69Q=/850x570/smart/filters:format(webp):quality(75)/https://static.texastribune.org/media/images/2016/01/28/marijuana_stamps.jpg" width=50% scrolling="no"></img></center> --> <!-- ``` -->
-
 ## Interviews/media mentions
+
+-   [*New York Times*](https://www.nytimes.com/2025/05/15/nyregion/salt-tax-deduction.html?smid=nytcore-ios-share&referringSource=articleShare) on the SALT cap (5/15/2025)
+
+-   [*Marketwatch*](https://www.marketwatch.com/story/republicans-voted-to-lift-the-salt-cap-these-taxpayers-will-benefit-most-fdf8f488) on the SALT cap (5/14/2025)
 
 -   [*Stateside* (Michigan Public Radio)](https://www.michiganpublic.org/show/stateside/2024-09-24/stateside-tuesday-sept-24-2024) on tipped minimum wages (9/24/2024)
 

@@ -14,16 +14,21 @@ website:
       - href: index.qmd
         text: Home
       - about.qmd
-      - text: "Research"
+      - text: "Work"
         menu:
-          - href: reports.qmd
-            text: "Reports"
-          - href: cv.qmd
-            text: "Journal articles"
+          - href: work.qmd
+            text: "Writing & reports"
           - href: media.qmd
-            text: "Blogs/media"
-      - href: portfolio.qmd
-        text: "Data viz portfolio"
+            text: "Media"
+          - href: portfolio.qmd
+            text: "Data viz"
+          # - href: reports.qmd
+          #   text: "Research areas"
+          # - href: cv.qmd
+          #   text: "Journal articles"
+          # - href: media.qmd
+          #   text: "Blogs/media"
+      
         
   page-footer: 
     right: "Made with [Quarto](https://quarto.org)"
