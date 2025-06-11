@@ -1,0 +1,41 @@
+---
+format:
+  html:
+    toc: true
+image: articles/advanced-layout-pdf.png
+search: false
+execute:
+  echo: false
+listing:
+  - id: assets/
+    template: assets/gallery.ejs
+    contents: assets/gallery.yml
+---
+
+## Mapping the SALT deduction before and after the TCJA cap
+```{=html}
+<iframe title="Share of Tax Filers Claiming the SALT Deduction " aria-label="Map" id="datawrapper-chart-EH9JR" src="https://datawrapper.dwcdn.net/EH9JR/9/" scrolling="no" frameborder="0" style="border: none;" width="100%" height="532" data-external="1"></iframe>
+```
+From [Proposed SALT Cap Increase Is An Expensive Boost For Few Communities](https://taxpolicycenter.org/taxvox/proposed-salt-cap-increase-expensive-boost-few-communities)
+
+<!-- ::: {.panel-tabset} -->
+
+## Mapping tariff rates with datawrapper
+```{=html}
+<iframe title="Cumulative Tariff Rates by Country" aria-label="Map" id="datawrapper-chart-QAqoN" src="https://datawrapper.dwcdn.net/QAqoN/13/" scrolling="no" frameborder="0" style="border: none;" width="100%" height="511" data-external="1"></iframe>
+```
+
+From TPC's feature ["Tracking the Trump Tariffs"](https://taxpolicycenter.org/features/tracking-trump-tariffs)
+
+<!-- ## Two ways of measuring the distribution of tax benefits by quintiles of income -->
+
+<!-- ![ljkjlh](assets/business_taxes_0.png) From TPC's feature ["Reassessing the Tax Cuts and Jobs Act"](https://taxpolicycenter.org/feature/reassessing-tax-cuts-and-jobs-act) -->
+
+<!-- ## Waffle chart breaking down changes in tax credit eligibility -->
+
+<!-- ![ljkjlh](assets/childless_eitc.png) From ["How the American Rescue Plan's Temporary EITC Expansion Impacted Workers Without Children"](https://taxpolicycenter.org/publications/how-american-rescue-plans-temporary-eitc-expansion-impacted-workers-without-children) -->
+
+<!-- ## Share of residents in the Bay Area claiming the SALT deduction -->
+
+<!-- ![Source: IRS Statistics of Income](assets/salt_county.png) 
+<!-- ::: --> 

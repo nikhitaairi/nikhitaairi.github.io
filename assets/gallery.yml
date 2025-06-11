@@ -1,0 +1,20 @@
+
+- category: Gallery
+  description: |
+    Some cool visualizations I've worked on
+  tiles:
+    # - title: Mapping global tariff rates
+    #   subtitle: interactive map in datawrapper
+    #   href: https://taxpolicycenter.org/features/tracking-trump-tariffs
+    # thumbnail: assets/tariff_map.png
+    - title: Visualizing tax benefits for TPC feature on TCJA
+      href: https://taxpolicycenter.org/feature/reassessing-tax-cuts-and-jobs-act
+      thumbnail: assets/business_taxes_0.png
+    - title: Waffle chart showing changes in tax credit eligibility
+      href: https://taxpolicycenter.org/publications/how-american-rescue-plans-temporary-eitc-expansion-impacted-workers-without-children
+      thumbnail: assets/childless_eitc.png
+      description: waffle chart showing the number of childless earned income tax credit recipients in 2019 and 2021, under the American Rescue Plan Act expansion. Squares equivalent to 100,000 returns are shown by year and by ages of recipients. Credit receipt increased in all age groups but most in 19-24 year olds.
+    - title: Plotting changes in city property values
+      href: https://taxpolicycenter.org/sites/default/files/publication/165853/the-future-of-commercial-real-estate_2024-05-01.pdf
+      thumbnail: assets/cre.png
+    

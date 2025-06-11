@@ -1,0 +1,54 @@
+---
+title: "Research areas"
+---
+
+Below is a selection of longer-form research reports I've contributed to across several topic areas.
+
+::: panel-tabset
+
+## Refundable tax credits
+
+### Changes in family incomes and structures 
+* [Understanding Yearly Changes in Family Structure and Income and Their Impact on Tax Credits](https://taxpolicycenter.org/publications/understanding-yearly-changes-family-structure-and-income-and-their-impact-tax-credits) 
+* [How Well Can Limited Data Predict Annual Tax Credits: The Importance of the Earned Income Tax Credit, Child Tax Credit, and An Option for Advancing Credits](https://taxpolicycenter.org/publications/how-well-can-limited-data-predict-annual-tax-credits) 
+
+### The Child Tax Credit
+* [Constructing a Child Tax Credit That Fits Every State](https://www.urban.org/research/publication/constructing-state-child-tax-credit-that-fits-every-state) 
+* [Helping New Mothers Understand the Benefits of Filing Taxes](https://www.urban.org/research/publication/helping-new-mothers-understand-benefits-filing-taxes) 
+* [Comparing Plans to Reduce Child Poverty: the Family Security Act 2.0 Framework and the Expanded Child Tax Credit](https://www.urban.org/research/publication/comparing-plans-reduce-child-poverty-family-security-act-20-framework-and) 
+
+
+### The Earned Income Tax Credit
+* [How the American Rescue Plan's Temporary EITC Expansion Impacted Workers Without Children](https://www.urban.org/research/publication/how-american-rescue-plans-temporary-eitc-expansion-impacted-workers-without) 
+* [Extending the California Earned Income Tax Credit to Postsecondary Students](https://www.urban.org/research/publication/extending-california-earned-income-tax-credit-postsecondary-students) 
+* [Options to Increase the EITC for Workers Without Children at Home](https://www.urban.org/research/publication/options-increase-eitc-workers-without-children-home) 
+* [Extending the Earned Income Tax Credit to Students: A Comparison of Aid Policies](https://www.urban.org/research/publication/extending-earned-income-tax-credit-students-comparison-aid-policies)
+* [Extending the Earned Income Tax Credit: How the Economic Security Project’s Cost-of-Living Refund Would Affect Family Caregivers](https://www.urban.org/research/publication/extending-earned-income-tax-credit-how-economic-security-projects-cost-living-refund-would-affect-family-caregivers)
+
+## State and local taxes/budgets
+
+### Cannabis taxes
+* [The Pros and Cons of Cannabis Taxes](https://www.urban.org/research/publication/pros-and-cons-cannabis-taxes) 
+
+### Sales taxes
+* [How Broad Are State Sales Tax Bases?](https://www.urban.org/research/publication/how-broad-are-state-sales-tax-bases) 
+
+### Commercial property taxes
+* [The Future of Commercial Real Estate and City Budgets](https://taxpolicycenter.org/publications/future-commercial-real-estate-and-city-budgets)
+
+### Federal grants & stimulus
+* [Understanding How Infrastructure Bill Dollars Affect Your Community](https://www.urban.org/research/publication/understanding-how-infrastructure-bill-dollars-affect-your-community) 
+* [Tracking Federal Economic Recovery Funds to Communities](https://www.urban.org/research/publication/tracking-federal-economic-recovery-funds-communities)
+* [Lessons from the American Recovery and Reinvestment Act for an Inclusive Recovery from the Pandemic](https://www.urban.org/research/publication/lessons-american-recovery-and-reinvestment-act-inclusive-recovery-pandemic) 
+
+### Revenue forecasting
+* Examining the Effects of Fiscal Rules on Systematic State-level Tax Revenue Forecasting Error (Reed College Senior Thesis)
+
+## and more
+
+* [Designing an Effective and More Universal Charitable Deduction](https://www.urban.org/research/publication/designing-effective-and-more-universal-charitable-deduction) 
+* [How Do Financial Attitudes and Preferences Vary among Latine Consumers?](https://www.urban.org/research/publication/how-do-financial-attitudes-and-preferences-vary-among-latine-consumers) 
+
+In addition to survey analysis and microsimulation modeling, I have worked with the synthetic control method and developing synthetic data for tax microsimulation.
+
+:::
