@@ -5,6 +5,8 @@ title: "In the media"
 ::: panel-tabset
 ## Interviews/media mentions
 
+-   [*Bloomberg*](https://news.bloombergtax.com/daily-tax-report-state/salt-cap-bump-to-40-000-in-gop-bill-would-benefit-few-taxpayers)on the SALT cap (5/21/2025)
+
 -   [*New York Times*](https://www.nytimes.com/2025/05/15/nyregion/salt-tax-deduction.html?smid=nytcore-ios-share&referringSource=articleShare) on the SALT cap (5/15/2025)
 
 -   [*Marketwatch*](https://www.marketwatch.com/story/republicans-voted-to-lift-the-salt-cap-these-taxpayers-will-benefit-most-fdf8f488) on the SALT cap (5/14/2025)
