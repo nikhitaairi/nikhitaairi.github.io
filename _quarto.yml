@@ -23,6 +23,7 @@ website:
           - href: portfolio.qmd
             text: "Data viz"
   google-analytics: GOOGLE_ANALYTICS_MEASUREMENT_ID
+  favicon: assets/favicon-32x32.png
           # - href: reports.qmd
           #   text: "Research areas"
           # - href: cv.qmd
