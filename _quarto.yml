@@ -22,7 +22,7 @@ website:
             text: "Media"
           - href: portfolio.qmd
             text: "Data viz"
-  google-analytics: "11341345395"
+  google-analytics: GOOGLE_ANALYTICS_MEASUREMENT_ID
           # - href: reports.qmd
           #   text: "Research areas"
           # - href: cv.qmd
