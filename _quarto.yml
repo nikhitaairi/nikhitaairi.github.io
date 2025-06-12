@@ -33,7 +33,7 @@ website:
       
         
   page-footer: 
-    right: "Made with [Quarto](https://quarto.org)"
+    right: "Made with [Quarto](https://quarto.org) \n Theme modified from [Bootswatch](https://bootswatch.com)"
           
   back-to-top-navigation: false
 
@@ -41,9 +41,9 @@ website:
 format:
   html:
     theme:
-      - brite #zephyr
+    # - brite #zephyr
       - assets/custom.scss
-    css: "bootstrap.min-2.css"
+    css: "assets/bootstrap.min-2.css"
     #css: styles.css
     toc: true
 
