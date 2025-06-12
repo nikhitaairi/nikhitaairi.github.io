@@ -41,9 +41,10 @@ website:
 format:
   html:
     theme:
-      - zephyr
+      - brite #zephyr
       - assets/custom.scss
-    css: styles.css
+    css: "bootstrap.min-2.css"
+    #css: styles.css
     toc: true
 
 editor: visual
