@@ -1,7 +1,12 @@
 /*-- scss:defaults --*/
 // Default variable overrides
 $primary:  #484A47 ;
-$secondary: #E88873;
+$secondary: #a2e436; 
+$nav-link-hover-color: #E0AC9D;
+$nav-tabs-link-hover-border-color:#ffffff;
+$navbar-light-hover-color: #E0AC9D;
+$navbar-light-active-color: #ffffff;
+$dropdown-link-hover-bg: #E0AC9D;
 
 
 // Fonts
@@ -14,5 +19,3 @@ h1, h2, h3, h4, h5, h1.title, .title.h1 {
 .navbar {
   font-family: "Cascadia Code", Sans-Serif ;
 }
-
-
