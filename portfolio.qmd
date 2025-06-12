@@ -13,6 +13,7 @@ listing:
 ---
 
 ## Mapping the SALT deduction before and after the TCJA cap
+
 ```{=html}
 <iframe title="Share of Tax Filers Claiming the SALT Deduction " aria-label="Map" id="datawrapper-chart-EH9JR" src="https://datawrapper.dwcdn.net/EH9JR/9/" scrolling="no" frameborder="0" style="border: none;" width="100%" height="600" data-external="1"></iframe>
 ```
@@ -21,10 +22,10 @@ From [Proposed SALT Cap Increase Is An Expensive Boost For Few Communities](http
 <!-- ::: {.panel-tabset} -->
 
 ## Mapping tariff rates with datawrapper
+
 ```{=html}
 <iframe title="Cumulative Tariff Rates by Country" aria-label="Map" id="datawrapper-chart-QAqoN" src="https://datawrapper.dwcdn.net/QAqoN/13/" scrolling="no" frameborder="0" style="border: none;" width="100%" height="511" data-external="1"></iframe>
 ```
-
 From TPC's feature ["Tracking the Trump Tariffs"](https://taxpolicycenter.org/features/tracking-trump-tariffs)
 
 <!-- ## Two ways of measuring the distribution of tax benefits by quintiles of income -->
@@ -37,5 +38,7 @@ From TPC's feature ["Tracking the Trump Tariffs"](https://taxpolicycenter.org/fe
 
 <!-- ## Share of residents in the Bay Area claiming the SALT deduction -->
 
+```{=html}
 <!-- ![Source: IRS Statistics of Income](assets/salt_county.png) 
-<!-- ::: --> 
+<!-- ::: -->
+```

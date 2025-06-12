@@ -149,14 +149,16 @@ listing:
 ---
 
 # Journal articles
-:::{#journal}
+
+::: {#journal}
 :::
 
 # Blogs
-:::{#blog}
+
+::: {#blog}
 :::
 
 # Reports
-:::{#report}
-:::
 
+::: {#report}
+:::
