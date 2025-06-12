@@ -24,6 +24,6 @@ I'm a researcher at the [Tax Policy Center](https://taxpolicycenter.org) at the 
 
 I work on microsimulation modeling, quantitative analysis, and data visualization, focusing on the interplay between federal, state, and local tax and budget policy. I'm excited about blending subject matter knowledge and code-first data science methods to build better tools and workflows for tax researchers.
 
-Outside of work Ican be found geeking out about public transit or at a movie theater.
+Outside of work I can be found geeking out about public transit or at a movie theater.
 
 ## Latest work
