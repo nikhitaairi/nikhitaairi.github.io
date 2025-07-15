@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Nikhita Airi – portfolio</title>
+<title>Nikhita Airi - Data visualization portfolio</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -65,20 +65,20 @@ ul.task-list li input[type="checkbox"] {
 <script>
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-assets/ .list');
+    const listingTargetEl = window.document.querySelector('#listing-graphs .list');
     if (!listingTargetEl) {
       // No listing discovered, do not attach.
       return; 
     }
 
     const options = {
-      valueNames: ['listing-category','listing-description','listing-tiles',{ data: ['index'] },{ data: ['categories'] }],
+      valueNames: ['listing-date','listing-title','listing-image','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
-      searchColumns: ["listing-category","listing-description","listing-tiles"],
+      searchColumns: ["listing-path","listing-title","listing-date","listing-image","listing-categories"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-assets/'] = new List('listing-assets/', options);
+    window['quarto-listings']['listing-graphs'] = new List('listing-graphs', options);
 
     if (window['quarto-listing-loaded']) {
       window['quarto-listing-loaded']();
@@ -165,85 +165,174 @@ gtag('config', 'GOOGLE_ANALYTICS_MEASUREMENT_ID', { 'anonymize_ip': true});
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul>
-  <li><a href="#mapping-the-salt-deduction-before-and-after-the-tcja-cap" id="toc-mapping-the-salt-deduction-before-and-after-the-tcja-cap" class="nav-link active" data-scroll-target="#mapping-the-salt-deduction-before-and-after-the-tcja-cap">Mapping the SALT deduction before and after the TCJA cap</a></li>
-  <li><a href="#mapping-tariff-rates-with-datawrapper" id="toc-mapping-tariff-rates-with-datawrapper" class="nav-link" data-scroll-target="#mapping-tariff-rates-with-datawrapper">Mapping tariff rates with datawrapper</a></li>
-  </ul>
-</nav>
-    </div>
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(5)</span></div><div class="category" data-category="infographic">infographic <span class="quarto-category-count">(3)</span></div><div class="category" data-category="interactives">interactives <span class="quarto-category-count">(2)</span></div><div class="category" data-category="maps">maps <span class="quarto-category-count">(2)</span></div><div class="category" data-category="static">static <span class="quarto-category-count">(3)</span></div></div></div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-
-
-<section id="mapping-the-salt-deduction-before-and-after-the-tcja-cap" class="level2">
-<h2 class="anchored" data-anchor-id="mapping-the-salt-deduction-before-and-after-the-tcja-cap">Mapping the SALT deduction before and after the TCJA cap</h2>
-<iframe title="Share of Tax Filers Claiming the SALT Deduction " aria-label="Map" id="datawrapper-chart-EH9JR" src="https://datawrapper.dwcdn.net/EH9JR/9/" scrolling="no" frameborder="0" style="border: none;" width="100%" height="600" data-external="1"></iframe>
-<p>From <a href="https://taxpolicycenter.org/taxvox/proposed-salt-cap-increase-expensive-boost-few-communities">Proposed SALT Cap Increase Is An Expensive Boost For Few Communities</a></p>
-<!-- ::: {.panel-tabset} -->
-</section>
-<section id="mapping-tariff-rates-with-datawrapper" class="level2">
-<h2 class="anchored" data-anchor-id="mapping-tariff-rates-with-datawrapper">Mapping tariff rates with datawrapper</h2>
-<iframe title="Cumulative Tariff Rates by Country" aria-label="Map" id="datawrapper-chart-QAqoN" src="https://datawrapper.dwcdn.net/QAqoN/13/" scrolling="no" frameborder="0" style="border: none;" width="100%" height="511" data-external="1"></iframe>
-<p>From TPC’s feature <a href="https://taxpolicycenter.org/features/tracking-trump-tariffs">“Tracking the Trump Tariffs”</a></p>
-<!-- ## Two ways of measuring the distribution of tax benefits by quintiles of income -->
-<!-- ![ljkjlh](assets/business_taxes_0.png) From TPC's feature ["Reassessing the Tax Cuts and Jobs Act"](https://taxpolicycenter.org/feature/reassessing-tax-cuts-and-jobs-act) -->
-<!-- ## Waffle chart breaking down changes in tax credit eligibility -->
-<!-- ![ljkjlh](assets/childless_eitc.png) From ["How the American Rescue Plan's Temporary EITC Expansion Impacted Workers Without Children"](https://taxpolicycenter.org/publications/how-american-rescue-plans-temporary-eitc-expansion-impacted-workers-without-children) -->
-<!-- ## Share of residents in the Bay Area claiming the SALT deduction -->
-<!-- ![Source: IRS Statistics of Income](assets/salt_county.png) 
-<!-- ::: -->
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Data visualization portfolio</h1>
+</div>
 
 
 
-</section>
+<div class="quarto-title-meta">
 
-<div class="quarto-listing quarto-listing-container-custom" id="listing-assets/">
-<h2 class="anchored">Gallery</h2>
-<p>Some cool visualizations I've worked on
+    
+  
+    
+  </div>
+  
+
+</header>
+
+<div id="listing-graphs" class="quarto-listing quarto-listing-container-grid">
+<div class="list grid quarto-listing-cols-1">
+<div class="g-col-1" data-index="0" data-categories="interactives,maps" data-listing-date-sort="1747108800000">
+<a href="https://taxpolicycenter.org/taxvox/proposed-salt-cap-increase-expensive-boost-few-communies" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="assets/saltmap.png" class="thumbnail-image card-img" style="height: 100%;">
 </p>
-<div class="list grid" style="column-gap: 10px;">
-  <div class="card border-2 rounded-3 g-col-12 g-col-sm-6 g-col-md-4 mb-2" data-index="0">
-    <div class="card-header py-1 px-2 border-bottom border-1 bg-light">
-      <small class="card-text inline-block">
-        <a href="https://taxpolicycenter.org/feature/reassessing-tax-cuts-and-jobs-act" class="listing-title">Visualizing tax benefits for TPC feature on TCJA</a>
-        <span class="text-muted listing-subtitle"></span>
-      </small>
-    </div>
-    <a href="https://taxpolicycenter.org/feature/reassessing-tax-cuts-and-jobs-act">
-      <img src="assets/business_taxes_0.png" alt="" class="card-img-top">
-    </a>
-  </div>
-  <div class="card border-2 rounded-3 g-col-12 g-col-sm-6 g-col-md-4 mb-2" data-index="1">
-    <div class="card-header py-1 px-2 border-bottom border-1 bg-light">
-      <small class="card-text inline-block">
-        <a href="https://taxpolicycenter.org/publications/how-american-rescue-plans-temporary-eitc-expansion-impacted-workers-without-children" class="listing-title">Waffle chart showing changes in tax credit eligibility</a>
-        <span class="text-muted listing-subtitle"></span>
-      </small>
-    </div>
-    <a href="https://taxpolicycenter.org/publications/how-american-rescue-plans-temporary-eitc-expansion-impacted-workers-without-children">
-      <img src="assets/childless_eitc.png" alt="waffle chart showing the number of childless earned income tax credit recipients in 2019 and 2021, under the American Rescue Plan Act expansion. Squares equivalent to 100,000 returns are shown by year and by ages of recipients. Credit receipt increased in all age groups but most in 19-24 year olds." class="card-img-top">
-    </a>
-  </div>
-  <div class="card border-2 rounded-3 g-col-12 g-col-sm-6 g-col-md-4 mb-2" data-index="2">
-    <div class="card-header py-1 px-2 border-bottom border-1 bg-light">
-      <small class="card-text inline-block">
-        <a href="https://taxpolicycenter.org/sites/default/files/publication/165853/the-future-of-commercial-real-estate_2024-05-01.pdf" class="listing-title">Plotting changes in city property values</a>
-        <span class="text-muted listing-subtitle"></span>
-      </small>
-    </div>
-    <a href="https://taxpolicycenter.org/sites/default/files/publication/165853/the-future-of-commercial-real-estate_2024-05-01.pdf">
-      <img src="assets/cre.png" alt="" class="card-img-top">
-    </a>
-  </div>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Mapping the SALT Deduction
+</h5>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('interactives'); return false;">
+interactives
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('maps'); return false;">
+maps
+</div>
+</div>
+<div class="card-attribution card-text-small end">
+<div class="listing-date">
+May 2025
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="1" data-categories="interactives,maps" data-listing-date-sort="1747022400000">
+<a href="https://taxpolicycenter.org/features/tracking-trump-tariffs" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="assets/tariff_map.png" class="thumbnail-image card-img" style="height: 100%;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Mapping global tariff rates
+</h5>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('interactives'); return false;">
+interactives
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('maps'); return false;">
+maps
+</div>
+</div>
+<div class="card-attribution card-text-small end">
+<div class="listing-date">
+May 2025
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="2" data-categories="static,infographic" data-listing-date-sort="1725595200000">
+<a href="https://taxpolicycenter.org/publications/how-american-rescue-plans-temporary-eitc-expansi-impacted-workers-without-children" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="assets/childless_eitc.png" class="thumbnail-image card-img" style="height: 100%;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Waffle chart showing changes in tax credit eligibility
+</h5>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('static'); return false;">
+static
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('infographic'); return false;">
+infographic
+</div>
+</div>
+<div class="card-attribution card-text-small end">
+<div class="listing-date">
+Sep 2024
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="3" data-categories="static,infographic" data-listing-date-sort="1717387200000">
+<a href="https://taxpolicycenter.org/feature/reassessing-tax-cuts-and-jobs-act" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="assets/business_taxes_0.png" class="thumbnail-image card-img" style="height: 100%;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Visualizing tax benefits for TPC feature on TCJA
+</h5>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('static'); return false;">
+static
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('infographic'); return false;">
+infographic
+</div>
+</div>
+<div class="card-attribution card-text-small end">
+<div class="listing-date">
+Jun 2024
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="4" data-categories="static,infographic" data-listing-date-sort="1714536000000">
+<a href="https://taxpolicycenter.org/sites/default/files/publication/165853/the-future-of-commerci-real-estate_2024-05-01.pdf" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="assets/cre.png" class="thumbnail-image card-img" style="height: 100%;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Plotting changes in city property values
+</h5>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('static'); return false;">
+static
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('infographic'); return false;">
+infographic
+</div>
+</div>
+<div class="card-attribution card-text-small end">
+<div class="listing-date">
+May 2024
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
 </div>
 <div class="listing-no-matching d-none">
 No matching items
 </div>
-</div></main> <!-- /main -->
+</div>
+
+
+
+
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
