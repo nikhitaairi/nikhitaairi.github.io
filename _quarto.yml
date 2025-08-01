@@ -1,6 +1,7 @@
 project:
   type: website
-  output-dir: /Users/nikhitaairi/Desktop/nikhitaairi.github.io/
+  #output-dir: /Users/nikhitaairi/Desktop/nikhitaairi.github.io/
+  output-dir: "C:/nikhitaairi.github.io/"
 
 website:
   title: "Nikhita Airi"
@@ -22,7 +23,7 @@ website:
             text: "Media"
           - href: portfolio.qmd
             text: "Data viz"
-  google-analytics: GOOGLE_ANALYTICS_MEASUREMENT_ID
+  google-analytics: G-QJY6QS20BP
   favicon: assets/favicon-32x32.png
           # - href: reports.qmd
           #   text: "Research areas"
