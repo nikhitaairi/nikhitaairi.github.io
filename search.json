@@ -38,6 +38,7 @@
     "objectID": "index.html#latest-work",
     "href": "index.html#latest-work",
     "title": "Hello!",
+<<<<<<< HEAD
     "section": "Latest work",
     "text": "Latest work"
   },
@@ -68,5 +69,16 @@
     "title": "Hello!",
     "section": "Experience",
     "text": "Experience\nUrban Institute | Research associate, previous roles | July 2019 - Present"
+=======
+    "section": "Latest work ↘",
+    "text": "Latest work ↘"
+  },
+  {
+    "objectID": "portfolio.html",
+    "href": "portfolio.html",
+    "title": "Data visualization portfolio",
+    "section": "",
+    "text": "Mapping the SALT Deduction\n\n\n\ninteractives\n\n\nmaps\n\n\n\n\nMay 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMapping global tariff rates\n\n\n\ninteractives\n\n\nmaps\n\n\n\n\nMay 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWaffle chart showing changes in tax credit eligibility\n\n\n\nstatic\n\n\ninfographic\n\n\n\n\nSep 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nVisualizing tax benefits for TPC feature on TCJA\n\n\n\nstatic\n\n\ninfographic\n\n\n\n\nJun 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPlotting changes in city property values\n\n\n\nstatic\n\n\ninfographic\n\n\n\n\nMay 2024\n\n\n\n\n\n\n\n\nNo matching items"
+>>>>>>> 1afbce9b81a62849a4cf03522520e167bce35cf3
   }
 ]

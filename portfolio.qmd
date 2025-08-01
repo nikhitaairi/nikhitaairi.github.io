@@ -1,44 +1,45 @@
 ---
-format:
-  html:
-    toc: true
-image: articles/advanced-layout-pdf.png
-search: false
-execute:
-  echo: false
+title: "Data visualization portfolio"
 listing:
-  - id: assets/
-    template: assets/gallery.ejs
-    contents: assets/gallery.yml
+- id: graphs
+  contents: 
+    - path: https://taxpolicycenter.org/taxvox/proposed-salt-cap-increase-expensive-boost-few-communies
+      title: "Mapping the SALT Deduction"
+      date: "2025-05-13" 
+      image: assets/saltmap.png
+      categories: ["interactives","maps"]
+    - path: https://taxpolicycenter.org/features/tracking-trump-tariffs
+      title: "Mapping global tariff rates"
+      date: "2025-05-12"
+      image: assets/tariff_map.png
+      categories: ["interactives","maps"]
+    - path: https://taxpolicycenter.org/publications/how-american-rescue-plans-temporary-eitc-expansi-impacted-workers-without-children
+      title: "Waffle chart showing changes in tax credit eligibility"
+      date: "2024-09-06" 
+      image: assets/childless_eitc.png
+      categories: ["static","infographic"]
+    - path: https://taxpolicycenter.org/feature/reassessing-tax-cuts-and-jobs-act
+      title: "Visualizing tax benefits for TPC feature on TCJA"
+      date: "2024-06-03"
+      image: assets/business_taxes_0.png
+      categories: ["static","infographic"]
+    - path: https://taxpolicycenter.org/sites/default/files/publication/165853/the-future-of-commerci-real-estate_2024-05-01.pdf
+      title: "Plotting changes in city property values"
+      date: "2024-05-01" 
+      image: assets/cre.png
+      categories: ["static","infographic"]
+  type: grid  
+  image-height: "100%"
+  sort: "date desc"
+  date-format: "MMM YYYY"
+  categories: true
+  fields: [date, title, image, categories]
+  grid-columns: 1
+toc: false
 ---
 
-## Mapping the SALT deduction before and after the TCJA cap
 
-```{=html}
-<iframe title="Share of Tax Filers Claiming the SALT Deduction " aria-label="Map" id="datawrapper-chart-EH9JR" src="https://datawrapper.dwcdn.net/EH9JR/9/" scrolling="no" frameborder="0" style="border: none;" width="100%" height="600" data-external="1"></iframe>
-```
-From [Proposed SALT Cap Increase Is An Expensive Boost For Few Communities](https://taxpolicycenter.org/taxvox/proposed-salt-cap-increase-expensive-boost-few-communities)
+::: {#graphs}
+:::
 
-<!-- ::: {.panel-tabset} -->
 
-## Mapping tariff rates with datawrapper
-
-```{=html}
-<iframe title="Cumulative Tariff Rates by Country" aria-label="Map" id="datawrapper-chart-QAqoN" src="https://datawrapper.dwcdn.net/QAqoN/13/" scrolling="no" frameborder="0" style="border: none;" width="100%" height="511" data-external="1"></iframe>
-```
-From TPC's feature ["Tracking the Trump Tariffs"](https://taxpolicycenter.org/features/tracking-trump-tariffs)
-
-<!-- ## Two ways of measuring the distribution of tax benefits by quintiles of income -->
-
-<!-- ![ljkjlh](assets/business_taxes_0.png) From TPC's feature ["Reassessing the Tax Cuts and Jobs Act"](https://taxpolicycenter.org/feature/reassessing-tax-cuts-and-jobs-act) -->
-
-<!-- ## Waffle chart breaking down changes in tax credit eligibility -->
-
-<!-- ![ljkjlh](assets/childless_eitc.png) From ["How the American Rescue Plan's Temporary EITC Expansion Impacted Workers Without Children"](https://taxpolicycenter.org/publications/how-american-rescue-plans-temporary-eitc-expansion-impacted-workers-without-children) -->
-
-<!-- ## Share of residents in the Bay Area claiming the SALT deduction -->
-
-```{=html}
-<!-- ![Source: IRS Statistics of Income](assets/salt_county.png) 
-<!-- ::: -->
-```

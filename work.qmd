@@ -148,17 +148,17 @@ listing:
   page-size: 9
 ---
 
-# Journal articles
+### Journal articles
 
 ::: {#journal}
 :::
 
-# Blogs
+### Blogs
 
 ::: {#blog}
 :::
 
-# Reports
+### Reports
 
 ::: {#report}
 :::
