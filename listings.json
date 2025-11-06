@@ -1,14 +1,10 @@
 [
   {
-    "listing": "/portfolio.html",
+    "listing": "/index.html",
     "items": []
   },
   {
     "listing": "/work.html",
-    "items": []
-  },
-  {
-    "listing": "/index.html",
     "items": []
   }
 ]
