@@ -27,6 +27,21 @@ listing:
   categories: true
   fields: [date, title, author, description, categories]
   page-size: 3
+- id: data-tools
+  contents:
+    - path: https://www.urban.org/data-tools/american-affordability-tracker
+      title: "The American Affordability Tracker: Data on Americans’ finances and everyday costs"
+      date: "2024-10-28"
+      categories: ["State and local","mapping"]
+    - path: https://www.urban.org/data-tools/where-2020-presidential-candidates-stand-tax-policy
+      title: "Where the 2020 Presidential Candidates Stand on Tax Policy"
+      date: "2019-12-12"
+  type: grid
+  sort: "date desc"
+  date-format: "MMM YYYY"
+  categories: true
+  fields: [date, title, author, description, categories]
+  page-size: 3
 - id: blog
   contents:
     - path: https://taxpolicycenter.org/taxvox/proposed-salt-cap-increase-expensive-boost-few-communities
@@ -151,6 +166,11 @@ listing:
 ### Journal articles
 
 ::: {#journal}
+:::
+
+### Interactives
+
+::: {#data-tools}
 :::
 
 ### Blogs

@@ -2,20 +2,21 @@
 title: "Hello!"
 about:
   template: solana
-image: assets/photo.png
+image: assets/photo2.jpeg
 listing: 
 - id: "Most recent work"
   contents:
-    - path: https://taxpolicycenter.org/taxvox/proposed-salt-cap-increase-expensive-boost-few-communities
-      title: "Proposed SALT Cap Increase Is An Expensive Boost For Few Communities"
-      date: "2025-05-13"
-      image: "assets/saltmap.png"
-      author: Blog for Tax Policy Center
+    - path: https://www.urban.org/data-tools/american-affordability-tracker
+      title: "The American Affordability Tracker"
+      subtitle: "Data on Americans’ finances and everyday costs"
+      date: "2025-10"
+      image: assets/affordability.png
+      author: "data tool for the Urban Institute"
   type: grid
   grid-columns: 1
   sort: "date desc"
   date-format: "MMM YYYY"
-  fields: [date, title, image, author]
+  fields: [date, title, subtitle, image, author]
   page-size: 1
 toc: false
 ---
