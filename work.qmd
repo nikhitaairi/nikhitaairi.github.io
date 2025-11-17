@@ -173,12 +173,12 @@ listing:
 ::: {#data-tools}
 :::
 
-### Blogs
+### Short-form policy writing
 
 ::: {#blog}
 :::
 
-### Reports
+### Long-form policy writing
 
 ::: {#report}
 :::
