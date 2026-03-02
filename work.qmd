@@ -44,6 +44,11 @@ listing:
   page-size: 3
 - id: blog
   contents:
+    - path: https://taxpolicycenter.org/taxvox/phasing-out-paper-refund-checks-tax-season-could-delay-refunds-some
+      title: "Phasing Out Paper Refund Checks This Tax Season Could Delay Refunds For Some"
+      author: "with Elaine Maag"
+      date: "2026-01-28"
+      categories: ["Tax administration"]
     - path: https://taxpolicycenter.org/taxvox/proposed-salt-cap-increase-expensive-boost-few-communities
       title: "Proposed SALT Cap Increase Is An Expensive Boost For Few Communities"
       date: "2025-05-13"
