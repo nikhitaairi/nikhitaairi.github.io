@@ -6,12 +6,9 @@ image: assets/photo2.jpeg
 listing: 
 - id: "Most recent work"
   contents:
-    - path: https://www.urban.org/data-tools/american-affordability-tracker
-      title: "The American Affordability Tracker"
-      subtitle: "Data on Americans’ finances and everyday costs"
-      date: "2025-10"
-      image: assets/affordability.png
-      author: "data tool for the Urban Institute"
+    - path: https://taxpolicycenter.org/taxvox/phasing-out-paper-refund-checks-tax-season-could-delay-refunds-some
+      title: "Phasing Out Paper Refund Checks This Tax Season Could Delay Refunds For Some"
+      date: "2026-01-28" 
   type: grid
   grid-columns: 1
   sort: "date desc"
