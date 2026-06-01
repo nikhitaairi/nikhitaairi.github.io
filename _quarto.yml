@@ -1,7 +1,6 @@
 project:
   type: website
-  #output-dir: /Users/nikhitaairi/Desktop/nikhitaairi.github.io/
-  output-dir: "C:/nikhitaairi.github.io/"
+  output-dir: "."
 
 website:
   title: "Nikhita Airi"
