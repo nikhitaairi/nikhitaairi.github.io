@@ -41,9 +41,7 @@ website:
 format:
   html:
     theme:
-    # - brite #zephyr
       - assets/custom.scss
-    css: "assets/bootstrap.min-2.css"
     #css: styles.css
     toc: true
 
