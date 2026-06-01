@@ -1,45 +1,135 @@
 ---
-title: "Data visualization portfolio"
-listing:
-- id: graphs
-  contents: 
-    - path: https://taxpolicycenter.org/taxvox/proposed-salt-cap-increase-expensive-boost-few-communies
-      title: "Mapping the SALT Deduction"
-      date: "2025-05-13" 
-      image: assets/saltmap.png
-      categories: ["interactives","maps"]
-    - path: https://taxpolicycenter.org/features/tracking-trump-tariffs
-      title: "Mapping global tariff rates"
-      date: "2025-05-12"
-      image: assets/tariff_map.png
-      categories: ["interactives","maps"]
-    - path: https://taxpolicycenter.org/publications/how-american-rescue-plans-temporary-eitc-expansi-impacted-workers-without-children
-      title: "Waffle chart showing changes in tax credit eligibility"
-      date: "2024-09-06" 
-      image: assets/childless_eitc.png
-      categories: ["static","infographic"]
-    - path: https://taxpolicycenter.org/feature/reassessing-tax-cuts-and-jobs-act
-      title: "Visualizing tax benefits for TPC feature on TCJA"
-      date: "2024-06-03"
-      image: assets/business_taxes_0.png
-      categories: ["static","infographic"]
-    - path: https://taxpolicycenter.org/sites/default/files/publication/165853/the-future-of-commerci-real-estate_2024-05-01.pdf
-      title: "Plotting changes in city property values"
-      date: "2024-05-01" 
-      image: assets/cre.png
-      categories: ["static","infographic"]
-  type: grid  
-  image-height: "100%"
-  sort: "date desc"
-  date-format: "MMM YYYY"
-  categories: true
-  fields: [date, title, image, categories]
-  grid-columns: 1
+title: "Data visualization and communication"
 toc: false
 ---
 
+## R packages
 
-::: {#graphs}
-:::
+```{=html}
+<div style="margin-top:2rem;">
 
+  <div style="display:flex; align-items:center; gap:1.5rem; margin-bottom:2rem;">
+    <div style="flex-shrink:0;">
+      <a href="https://github.com/UI-Research/tpcutil" target="_blank">
+        <img src="assets/hex-tpcutil.png" alt="tpcutil hex sticker" style="width:120px;">
+      </a>
+    </div>
+    <div>
+      <h5 class="fw-bold mb-1">tpcutil</h5>
+      <p class="mb-0">An R package providing utility functions for Tax Policy Center researchers. Includes tools for data wrangling, formatting, and common TPC workflows.</p>
+    </div>
+  </div>
+
+  <div style="display:flex; align-items:center; gap:1.5rem; margin-bottom:2rem;">
+    <div style="flex-shrink:0;">
+      <a href="https://github.com/UI-Research/tpcthemes" target="_blank">
+        <img src="assets/hex-tpcthemes.png" alt="tpcthemes hex sticker" style="width:120px;">
+      </a>
+    </div>
+    <div>
+      <h5 class="fw-bold mb-1">tpcthemes</h5>
+      <p class="mb-0">An R package implementing Tax Policy Center ggplot2 themes and color palettes, enabling consistent and publication-ready data visualizations.</p>
+    </div>
+  </div>
+
+</div>
+```
+
+## Portfolio
+```{=html}
+<div id="portfolioCarousel" class="carousel slide" data-bs-ride="false">
+
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#portfolioCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#portfolioCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#portfolioCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    <button type="button" data-bs-target="#portfolioCarousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+    <button type="button" data-bs-target="#portfolioCarousel" data-bs-slide-to="4" aria-label="Slide 5"></button>
+  </div>
+
+  <div class="carousel-inner">
+
+    <div class="carousel-item active">
+      <a href="https://taxpolicycenter.org/feature/reassessing-tax-cuts-and-jobs-act" target="_blank">
+        <img src="assets/business_taxes_0.png" class="d-block w-100" alt="Visualizing tax benefits for TPC feature on TCJA">
+      </a>
+      <div class="carousel-caption">
+        <h5><a href="https://taxpolicycenter.org/feature/reassessing-tax-cuts-and-jobs-act" target="_blank" class="text-white">Visualizing tax benefits for TPC feature on TCJA</a></h5>
+        <p><span class="badge bg-secondary me-1">static</span><span class="badge bg-secondary">infographic</span> &nbsp; Jun 2024</p>
+      </div>
+    </div>
+
+    <div class="carousel-item">
+      <a href="https://taxpolicycenter.org/publications/how-american-rescue-plans-temporary-eitc-expansi-impacted-workers-without-children" target="_blank">
+        <img src="assets/childless_eitc.png" class="d-block w-100" alt="Waffle chart showing changes in tax credit eligibility">
+      </a>
+      <div class="carousel-caption">
+        <h5><a href="https://taxpolicycenter.org/publications/how-american-rescue-plans-temporary-eitc-expansi-impacted-workers-without-children" target="_blank" class="text-white">Waffle chart showing changes in tax credit eligibility</a></h5>
+        <p><span class="badge bg-secondary me-1">static</span><span class="badge bg-secondary">infographic</span> &nbsp; Sep 2024</p>
+      </div>
+    </div>
+
+    <div class="carousel-item">
+      <a href="https://taxpolicycenter.org/taxvox/proposed-salt-cap-increase-expensive-boost-few-communies" target="_blank">
+        <img src="assets/saltmap.png" class="d-block w-100" alt="Mapping the SALT Deduction">
+      </a>
+      <div class="carousel-caption">
+        <h5><a href="https://taxpolicycenter.org/taxvox/proposed-salt-cap-increase-expensive-boost-few-communies" target="_blank" class="text-white">Mapping the SALT Deduction</a></h5>
+        <p><span class="badge bg-secondary me-1">interactives</span><span class="badge bg-secondary">maps</span> &nbsp; May 2025</p>
+      </div>
+    </div>
+
+    <div class="carousel-item">
+      <a href="https://taxpolicycenter.org/features/tracking-trump-tariffs" target="_blank">
+        <img src="assets/tariff_map.png" class="d-block w-100" alt="Mapping global tariff rates">
+      </a>
+      <div class="carousel-caption">
+        <h5><a href="https://taxpolicycenter.org/features/tracking-trump-tariffs" target="_blank" class="text-white">Mapping global tariff rates</a></h5>
+        <p><span class="badge bg-secondary me-1">interactives</span><span class="badge bg-secondary">maps</span> &nbsp; May 2025</p>
+      </div>
+    </div>
+
+    <div class="carousel-item">
+      <a href="https://taxpolicycenter.org/sites/default/files/publication/165853/the-future-of-commerci-real-estate_2024-05-01.pdf" target="_blank">
+        <img src="assets/cre.png" class="d-block w-100" alt="Plotting changes in city property values">
+      </a>
+      <div class="carousel-caption">
+        <h5><a href="https://taxpolicycenter.org/sites/default/files/publication/165853/the-future-of-commerci-real-estate_2024-05-01.pdf" target="_blank" class="text-white">Plotting changes in city property values</a></h5>
+        <p><span class="badge bg-secondary me-1">static</span><span class="badge bg-secondary">infographic</span> &nbsp; May 2024</p>
+      </div>
+    </div>
+
+  </div>
+
+  <button class="carousel-control-prev" type="button" data-bs-target="#portfolioCarousel" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#portfolioCarousel" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+
+</div>
+
+<style>
+  .carousel-item img {
+    max-height: 70vh;
+    object-fit: contain;
+    background-color: #f8f9fa;
+  }
+  .carousel-caption {
+    position: static;
+    text-align: left;
+    color: #484A47 !important;
+    padding: 0.75rem 0.25rem 0.5rem;
+  }
+  .carousel-caption h5 a {
+    color: #484A47 !important;
+  }
+  .carousel-caption p {
+    color: #484A47 !important;
+  }
+</style>
+```
 

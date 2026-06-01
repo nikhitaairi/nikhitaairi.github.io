@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Data visualization portfolio – Nikhita Airi</title>
+<title>Data visualization and communication – Nikhita Airi</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -31,8 +31,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
 <link href="./assets/favicon-32x32.png" rel="icon" type="image/png">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
@@ -71,35 +69,6 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-graphs .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-date','listing-title','listing-image','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-title","listing-date","listing-image","listing-categories"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-graphs'] = new List('listing-graphs', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
 <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-QJY6QS20BP"></script>
 
 <script type="text/javascript">
@@ -110,39 +79,10 @@ gtag('js', new Date());
 gtag('config', 'G-QJY6QS20BP', { 'anonymize_ip': true});
 </script>
 
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 </head>
 
-<body class="nav-fixed quarto-light">
+<body class="nav-fixed fullcontent quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -199,14 +139,13 @@ window.Quarto = {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(5)</span></div><div class="category" data-category="aW5mb2dyYXBoaWM=">infographic <span class="quarto-category-count">(3)</span></div><div class="category" data-category="aW50ZXJhY3RpdmVz">interactives <span class="quarto-category-count">(2)</span></div><div class="category" data-category="bWFwcw==">maps <span class="quarto-category-count">(2)</span></div><div class="category" data-category="c3RhdGlj">static <span class="quarto-category-count">(3)</span></div></div></div>
+    
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Data visualization portfolio</h1>
+<h1 class="title">Data visualization and communication</h1>
 </div>
 
 
@@ -223,139 +162,135 @@ window.Quarto = {
 </header>
 
 
-<div id="listing-graphs" class="quarto-listing quarto-listing-container-grid">
-<div class="list grid quarto-listing-cols-1">
-<div class="g-col-1" data-index="0" data-categories="aW50ZXJhY3RpdmVzJTJDbWFwcw==" data-listing-date-sort="1747108800000">
-<a href="https://taxpolicycenter.org/taxvox/proposed-salt-cap-increase-expensive-boost-few-communies" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="assets/saltmap.png" class="thumbnail-image card-img" style="height: 100%;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Mapping the SALT Deduction
-</h5>
-<div class="listing-categories">
+<section id="r-packages" class="level2">
+<h2 class="anchored" data-anchor-id="r-packages">R packages</h2>
+<div style="margin-top:2rem;">
 
-<div class="listing-category" onclick="window.quartoListingCategory('aW50ZXJhY3RpdmVz'); return false;">interactives</div>
+  <div style="display:flex; align-items:center; gap:1.5rem; margin-bottom:2rem;">
+    <div style="flex-shrink:0;">
+      <a href="https://github.com/UI-Research/tpcutil" target="_blank">
+        <img src="assets/hex-tpcutil.png" alt="tpcutil hex sticker" style="width:120px;">
+      </a>
+    </div>
+    <div>
+      <h5 class="fw-bold mb-1 anchored">tpcutil</h5>
+      <p class="mb-0">An R package providing utility functions for Tax Policy Center researchers. Includes tools for data wrangling, formatting, and common TPC workflows.</p>
+    </div>
+  </div>
 
-<div class="listing-category" onclick="window.quartoListingCategory('bWFwcw=='); return false;">maps</div>
-
-</div>
-<div class="card-attribution card-text-small end">
-<div class="listing-date">
-May 2025
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="1" data-categories="aW50ZXJhY3RpdmVzJTJDbWFwcw==" data-listing-date-sort="1747022400000">
-<a href="https://taxpolicycenter.org/features/tracking-trump-tariffs" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="assets/tariff_map.png" class="thumbnail-image card-img" style="height: 100%;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Mapping global tariff rates
-</h5>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('aW50ZXJhY3RpdmVz'); return false;">interactives</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('bWFwcw=='); return false;">maps</div>
+  <div style="display:flex; align-items:center; gap:1.5rem; margin-bottom:2rem;">
+    <div style="flex-shrink:0;">
+      <a href="https://github.com/UI-Research/tpcthemes" target="_blank">
+        <img src="assets/hex-tpcthemes.png" alt="tpcthemes hex sticker" style="width:120px;">
+      </a>
+    </div>
+    <div>
+      <h5 class="fw-bold mb-1 anchored">tpcthemes</h5>
+      <p class="mb-0">An R package implementing Tax Policy Center ggplot2 themes and color palettes, enabling consistent and publication-ready data visualizations.</p>
+    </div>
+  </div>
 
 </div>
-<div class="card-attribution card-text-small end">
-<div class="listing-date">
-May 2025
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="2" data-categories="c3RhdGljJTJDaW5mb2dyYXBoaWM=" data-listing-date-sort="1725595200000">
-<a href="https://taxpolicycenter.org/publications/how-american-rescue-plans-temporary-eitc-expansi-impacted-workers-without-children" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="assets/childless_eitc.png" class="thumbnail-image card-img" style="height: 100%;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Waffle chart showing changes in tax credit eligibility
-</h5>
-<div class="listing-categories">
+</section>
+<section id="portfolio" class="level2">
+<h2 class="anchored" data-anchor-id="portfolio">Portfolio</h2>
+<div id="portfolioCarousel" class="carousel slide" data-bs-ride="false">
 
-<div class="listing-category" onclick="window.quartoListingCategory('c3RhdGlj'); return false;">static</div>
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#portfolioCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#portfolioCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#portfolioCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    <button type="button" data-bs-target="#portfolioCarousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+    <button type="button" data-bs-target="#portfolioCarousel" data-bs-slide-to="4" aria-label="Slide 5"></button>
+  </div>
 
-<div class="listing-category" onclick="window.quartoListingCategory('aW5mb2dyYXBoaWM='); return false;">infographic</div>
+  <div class="carousel-inner">
 
-</div>
-<div class="card-attribution card-text-small end">
-<div class="listing-date">
-Sep 2024
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="3" data-categories="c3RhdGljJTJDaW5mb2dyYXBoaWM=" data-listing-date-sort="1717387200000">
-<a href="https://taxpolicycenter.org/feature/reassessing-tax-cuts-and-jobs-act" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="assets/business_taxes_0.png" class="thumbnail-image card-img" style="height: 100%;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Visualizing tax benefits for TPC feature on TCJA
-</h5>
-<div class="listing-categories">
+    <div class="carousel-item active">
+      <a href="https://taxpolicycenter.org/feature/reassessing-tax-cuts-and-jobs-act" target="_blank">
+        <img src="assets/business_taxes_0.png" class="d-block w-100" alt="Visualizing tax benefits for TPC feature on TCJA">
+      </a>
+      <div class="carousel-caption">
+        <h5 class="anchored"><a href="https://taxpolicycenter.org/feature/reassessing-tax-cuts-and-jobs-act" target="_blank" class="text-white">Visualizing tax benefits for TPC feature on TCJA</a></h5>
+        <p><span class="badge bg-secondary me-1">static</span><span class="badge bg-secondary">infographic</span> &nbsp; Jun 2024</p>
+      </div>
+    </div>
 
-<div class="listing-category" onclick="window.quartoListingCategory('c3RhdGlj'); return false;">static</div>
+    <div class="carousel-item">
+      <a href="https://taxpolicycenter.org/publications/how-american-rescue-plans-temporary-eitc-expansi-impacted-workers-without-children" target="_blank">
+        <img src="assets/childless_eitc.png" class="d-block w-100" alt="Waffle chart showing changes in tax credit eligibility">
+      </a>
+      <div class="carousel-caption">
+        <h5 class="anchored"><a href="https://taxpolicycenter.org/publications/how-american-rescue-plans-temporary-eitc-expansi-impacted-workers-without-children" target="_blank" class="text-white">Waffle chart showing changes in tax credit eligibility</a></h5>
+        <p><span class="badge bg-secondary me-1">static</span><span class="badge bg-secondary">infographic</span> &nbsp; Sep 2024</p>
+      </div>
+    </div>
 
-<div class="listing-category" onclick="window.quartoListingCategory('aW5mb2dyYXBoaWM='); return false;">infographic</div>
+    <div class="carousel-item">
+      <a href="https://taxpolicycenter.org/taxvox/proposed-salt-cap-increase-expensive-boost-few-communies" target="_blank">
+        <img src="assets/saltmap.png" class="d-block w-100" alt="Mapping the SALT Deduction">
+      </a>
+      <div class="carousel-caption">
+        <h5 class="anchored"><a href="https://taxpolicycenter.org/taxvox/proposed-salt-cap-increase-expensive-boost-few-communies" target="_blank" class="text-white">Mapping the SALT Deduction</a></h5>
+        <p><span class="badge bg-secondary me-1">interactives</span><span class="badge bg-secondary">maps</span> &nbsp; May 2025</p>
+      </div>
+    </div>
 
-</div>
-<div class="card-attribution card-text-small end">
-<div class="listing-date">
-Jun 2024
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="4" data-categories="c3RhdGljJTJDaW5mb2dyYXBoaWM=" data-listing-date-sort="1714536000000">
-<a href="https://taxpolicycenter.org/sites/default/files/publication/165853/the-future-of-commerci-real-estate_2024-05-01.pdf" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="assets/cre.png" class="thumbnail-image card-img" style="height: 100%;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Plotting changes in city property values
-</h5>
-<div class="listing-categories">
+    <div class="carousel-item">
+      <a href="https://taxpolicycenter.org/features/tracking-trump-tariffs" target="_blank">
+        <img src="assets/tariff_map.png" class="d-block w-100" alt="Mapping global tariff rates">
+      </a>
+      <div class="carousel-caption">
+        <h5 class="anchored"><a href="https://taxpolicycenter.org/features/tracking-trump-tariffs" target="_blank" class="text-white">Mapping global tariff rates</a></h5>
+        <p><span class="badge bg-secondary me-1">interactives</span><span class="badge bg-secondary">maps</span> &nbsp; May 2025</p>
+      </div>
+    </div>
 
-<div class="listing-category" onclick="window.quartoListingCategory('c3RhdGlj'); return false;">static</div>
+    <div class="carousel-item">
+      <a href="https://taxpolicycenter.org/sites/default/files/publication/165853/the-future-of-commerci-real-estate_2024-05-01.pdf" target="_blank">
+        <img src="assets/cre.png" class="d-block w-100" alt="Plotting changes in city property values">
+      </a>
+      <div class="carousel-caption">
+        <h5 class="anchored"><a href="https://taxpolicycenter.org/sites/default/files/publication/165853/the-future-of-commerci-real-estate_2024-05-01.pdf" target="_blank" class="text-white">Plotting changes in city property values</a></h5>
+        <p><span class="badge bg-secondary me-1">static</span><span class="badge bg-secondary">infographic</span> &nbsp; May 2024</p>
+      </div>
+    </div>
 
-<div class="listing-category" onclick="window.quartoListingCategory('aW5mb2dyYXBoaWM='); return false;">infographic</div>
+  </div>
 
-</div>
-<div class="card-attribution card-text-small end">
-<div class="listing-date">
-May 2024
-</div>
-</div>
-</div>
-</div></a>
-</div>
-</div>
-<div class="listing-no-matching d-none">No matching items</div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#portfolioCarousel" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#portfolioCarousel" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+
 </div>
 
+<style>
+  .carousel-item img {
+    max-height: 70vh;
+    object-fit: contain;
+    background-color: #f8f9fa;
+  }
+  .carousel-caption {
+    position: static;
+    text-align: left;
+    color: #484A47 !important;
+    padding: 0.75rem 0.25rem 0.5rem;
+  }
+  .carousel-caption h5 a {
+    color: #484A47 !important;
+  }
+  .carousel-caption p {
+    color: #484A47 !important;
+  }
+</style>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

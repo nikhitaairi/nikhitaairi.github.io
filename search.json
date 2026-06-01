@@ -2,16 +2,30 @@
   {
     "objectID": "portfolio.html",
     "href": "portfolio.html",
-    "title": "Data visualization portfolio",
+    "title": "Data visualization and communication",
     "section": "",
-    "text": "Mapping the SALT Deduction\n\n\n\ninteractives\n\nmaps\n\n\n\n\nMay 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\nMapping global tariff rates\n\n\n\ninteractives\n\nmaps\n\n\n\n\nMay 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\nWaffle chart showing changes in tax credit eligibility\n\n\n\nstatic\n\ninfographic\n\n\n\n\nSep 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\nVisualizing tax benefits for TPC feature on TCJA\n\n\n\nstatic\n\ninfographic\n\n\n\n\nJun 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\nPlotting changes in city property values\n\n\n\nstatic\n\ninfographic\n\n\n\n\nMay 2024\n\n\n\n\n\n\nNo matching items"
+    "text": "An R package providing utility functions for Tax Policy Center researchers. Includes tools for data wrangling, formatting, and common TPC workflows.\n    \n  \n\n  \n    \n      \n        \n      \n    \n    \n      \n      An R package implementing Tax Policy Center ggplot2 themes and color palettes, enabling consistent and publication-ready data visualizations."
+  },
+  {
+    "objectID": "portfolio.html#r-packages",
+    "href": "portfolio.html#r-packages",
+    "title": "Data visualization and communication",
+    "section": "",
+    "text": "An R package providing utility functions for Tax Policy Center researchers. Includes tools for data wrangling, formatting, and common TPC workflows.\n    \n  \n\n  \n    \n      \n        \n      \n    \n    \n      \n      An R package implementing Tax Policy Center ggplot2 themes and color palettes, enabling consistent and publication-ready data visualizations."
+  },
+  {
+    "objectID": "portfolio.html#portfolio",
+    "href": "portfolio.html#portfolio",
+    "title": "Data visualization and communication",
+    "section": "Portfolio",
+    "text": "Portfolio\n\n\n  \n    \n    \n    \n    \n    \n  \n\n  \n\n    \n      \n        \n      \n      \n        Visualizing tax benefits for TPC feature on TCJA\n        staticinfographic   Jun 2024\n      \n    \n\n    \n      \n        \n      \n      \n        Waffle chart showing changes in tax credit eligibility\n        staticinfographic   Sep 2024\n      \n    \n\n    \n      \n        \n      \n      \n        Mapping the SALT Deduction\n        interactivesmaps   May 2025\n      \n    \n\n    \n      \n        \n      \n      \n        Mapping global tariff rates\n        interactivesmaps   May 2025\n      \n    \n\n    \n      \n        \n      \n      \n        Plotting changes in city property values\n        staticinfographic   May 2024\n      \n    \n\n  \n\n  \n    \n    Previous\n  \n  \n    \n    Next"
   },
   {
     "objectID": "media.html",
     "href": "media.html",
     "title": "In the media",
     "section": "",
-    "text": "Interviews/media mentionsPresentations\n\n\n\nSan Francisco Chronicle on the SALT cap (6/9/2025)\nBloomberg on the SALT cap (5/21/2025)\nNew York Times on the SALT cap (5/15/2025)\nMarketwatch on the SALT cap (5/14/2025)\nStateside (Michigan Public Radio) on tipped minimum wages (9/24/2024)\nChalkbeat on the child tax credit (9/10/2024)\nCNBC on the child tax credit (2/1/2024)\nRoute Fifty on public sector capacity in state and local government (8/29/2023)\nCBS8 on student loan forgiveness (10/18/2022)\nVox on monthly payments of tax credits (2/23/2021)\n\n\n\n\nIRS/TPC Joint Research Conference on Tax Administration (June 2023)"
+    "text": "Interviews/media mentionsPresentations\n\n\n\nChicago Sun-Times on OBBBA (2/19/2026)\nChicago Tribune on the SALT cap (7/28/2025)\nSan Francisco Chronicle on the SALT cap (6/9/2025)\nBloomberg on the SALT cap (5/21/2025)\nNew York Times on the SALT cap (5/15/2025)\nMarketwatch on the SALT cap (5/14/2025)\nStateside (Michigan Public Radio) on tipped minimum wages (9/24/2024)\nChalkbeat on the child tax credit (9/10/2024)\nCNBC on the child tax credit (2/1/2024)\nRoute Fifty on public sector capacity in state and local government (8/29/2023)\nCBS8 on student loan forgiveness (10/18/2022)\nVox on monthly payments of tax credits (2/23/2021)\n\n\n\n\nIRS/TPC Joint Research Conference on Tax Administration (June 2023)"
   },
   {
     "objectID": "old/cv.html",
