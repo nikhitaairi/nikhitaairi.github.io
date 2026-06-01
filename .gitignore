@@ -9,3 +9,4 @@
 site_libs/.DS_Store
 
 **/*.quarto_ipynb
+_site/
