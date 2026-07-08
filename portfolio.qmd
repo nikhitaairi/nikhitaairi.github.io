@@ -45,6 +45,7 @@ toc: false
     <button type="button" data-bs-target="#portfolioCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
     <button type="button" data-bs-target="#portfolioCarousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
     <button type="button" data-bs-target="#portfolioCarousel" data-bs-slide-to="4" aria-label="Slide 5"></button>
+    <button type="button" data-bs-target="#portfolioCarousel" data-bs-slide-to="5" aria-label="Slide 6"></button>
   </div>
 
   <div class="carousel-inner">
@@ -80,12 +81,23 @@ toc: false
     </div>
 
     <div class="carousel-item">
+      <a href="https://taxpolicycenter.org/model-estimates/t26-0070" target="_blank">
+        <img src="assets/redesigned-tpc-dist.png" class="d-block w-100" alt="Redesigned TPC Distribution Tables">
+      </a>
+      <div class="carousel-caption">
+        <h5><a href="https://taxpolicycenter.org/model-estimates/t26-0070" target="_blank" class="text-white">Redesigned TPC Distribution Tables</a></h5>
+        <p><span class="badge bg-secondary me-1">interactives</span> &nbsp; July 2026</p>
+      </div>
+    </div>
+
+
+    <div class="carousel-item">
       <a href="https://taxpolicycenter.org/features/tracking-trump-tariffs" target="_blank">
         <img src="assets/tariff_map.png" class="d-block w-100" alt="Mapping global tariff rates">
       </a>
       <div class="carousel-caption">
         <h5><a href="https://taxpolicycenter.org/features/tracking-trump-tariffs" target="_blank" class="text-white">Mapping global tariff rates</a></h5>
-        <p><span class="badge bg-secondary me-1">interactives</span><span class="badge bg-secondary">maps</span> &nbsp; May 2025</p>
+        <p><span class="badge bg-secondary me-1">interactives</span> &nbsp; May 2025</p>
       </div>
     </div>
 
