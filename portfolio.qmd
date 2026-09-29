@@ -16,7 +16,7 @@ toc: false
     </div>
     <div>
       <h5 class="fw-bold mb-1">tpcutil</h5>
-      <p class="mb-0">An R package providing utility functions for Tax Policy Center researchers. Includes tools for data wrangling, formatting, and common TPC workflows.</p>
+      <p class="mb-0">An R package providing utility functions for Tax Policy Center researchers. Includes tools for data wrangling, formatting, and common TPC workflows. With <a href = "http://johnthwong.github.io">John Wong</a></p>
     </div>
   </div>
 
